@@ -32,4 +32,22 @@ http://www.paulirish.com/2009/perf/
 A Comparison of Angular, Backbone, CanJS and Ember
 https://sporto.github.io/blog/2013/04/12/comparison-angular-backbone-can-ember/
 
+Fundu Courses
 https://frontendmasters.com/courses
+
+Jasmine Presentation
+http://www.slideshare.net/larsthorup/advanced-jasmine
+
+Introduction to gulp
+http://www.sitepoint.com/introduction-gulp-js/
+https://github.com/gulpjs/gulp
+
+RequireJS Multipage Shim tutorial
+http://robdodson.me/blog/2012/11/18/a-require-dot-js-multipage-shimmed-site-how-to/
+
+Headless Browser Testing
+http://buddylindsey.com/basics-of-headless-browser-testing-with-zombie-js/
+http://zombie.labnotes.org/
+
+Trick of running maven with jasmine
+http://ivandemarino.me/2011/07/09/Maven-PhantomJS-and-Jasmine-to-write-your-JS-Unit-Testing/
