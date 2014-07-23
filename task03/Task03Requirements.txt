@@ -1,2 +1,62 @@
 23 July 2014, Task 03 Requirements
 ==================================
+
+1) Make the original repository upstream remote for your local
+
+cd projects
+git clone https://github.com/tushardemo/frontendninja
+(tushardemo is demo participants for demo purposes)
+cd frontendninja
+
+One time setting:
+cd frontendninja
+git remote add upstream https://github.com/tusharvjoshi/frontendninja
+
+To get updates from the source repository of tusharvjoshi
+git fetch upstream
+git merge upstream/master master
+git push
+
+2) Use bootstrap 3 and make grid layout
+
+Grid example:
+http://getbootstrap.com/examples/grid/
+
+Complete the index.html file with following layout
+Use desktop columns that is col-md-* classes
+Check with CTRL+SHIFT+M in Firefox
+
++--------------------------------------------------------+
+|  Banner                                                |
++--------------------------------------------------------+
++-------------+-----------------------------+------------+
+| Left Bar    |  Main content               | right bar  |
+|             |                             |            |
+|             |                             |            |
+|             |                             |            |
+|             |                             |            |
+|             |                             |            |
+|             |                             |            |
+|             |                             |            |
+|             |                             |            |
++-------------+-----------------------------+------------+
++--------------------------------------------------------+
+|  Footer                                                |
++--------------------------------------------------------+
++-----------+----------------+-------------+-------------+
+| Section 1 |  Section 2     | Section 3   | Section 4   |
+|           |                |             |             |
+|           |                |             |             |
+|           |                |             |             |
+|           |                |             |             |
+|           |                |             |             |
++-----------+----------------+-------------+-------------+
+
+The content of each box shall be as follows: 
+(replace [[Some Text]] with actual name given in the boxes above)
+
+<h4>[[Some Text]]</h4>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+
+Commit your index.html back to your repository.
