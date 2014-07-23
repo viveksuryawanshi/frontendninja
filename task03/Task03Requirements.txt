@@ -139,3 +139,15 @@ gulp.task('default', function () {
 
 Finished in 0.003 seconds
 1 test, 1 assertion, 0 failures
+
+- The final folder contents will be
+
+npmtest
+|   gulpfile.js
+|   package.json
+|   
++---node_modules
+|   +--- (lot of folders and files)
+|                                       
+\---spec
+        test.js
